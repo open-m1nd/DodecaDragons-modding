@@ -127,6 +127,7 @@
 			<p class="resourceRow" onclick="posSet(980,650)" style="display: none"><img src="img/iconNuclearPasta.png" class="resourceIcon"></img>Nuclear pasta: <a class="resourceText">0</a></p>
 			<p class="resourceRow" onclick="posSet(-1755,-615)" style="display: none"><img src="img/iconFinalityEssence.png" class="resourceIcon"></img>Finality essence: <a class="resourceText">0</a></p>
 			<p class="resourceRow" onclick="posSet(-1541,-1105)" style="display: none"><img src="img/iconFinalityCube.png" class="resourceIcon"></img>Finality cubes: <a class="resourceText">0</a></p>
+      <p class='resourceRow' onclick="posSet(515, 1140)"><a>Test (Click me)</a></p>
     </div>
   </div>
 
@@ -872,7 +873,7 @@
     </div>
     <div class="window-body" style="max-height: calc(95vh - 50px); overflow: auto">
       <div style="margin-top: 8px; background-color: #111; width: 100%; border-top: 4px solid #666; border-bottom: 4px solid #666">
-        <p style="text-align: center"><a class="titleText" style="font-size: 36px; color: #ca1; text-shadow: 3px 3px #555">DodecaDragons</a><br><a style="color: #666">v1.0.1 (THE FINAL UPDATE) <span id="inDevSpan"></span></a></p>
+        <p style="text-align: center"><a class="titleText" style="font-size: 36px; color: #ca1; text-shadow: 3px 3px #555">DodecaDragons</a><br><a style="color: #666">vNumbers 21:7 (THE SERPENT UPDATE) <span id="inDevSpan"></span></a></p>
       </div>
 			<p id ="devinfo" style="position: absolute; top: 120px; right: 4px; text-align: right; margin: 0"><a href="changelog.txt" target="_blank">Changelog</a></p>
       <p style="margin-top: 6px">Created by <a style="color: #50a">Demonin</a><br>Co-developed by <a style="color: #a0a">Cornucanis</a><br>Additional spriting by <a style="color: #a00">Zaxolotl</a></p>
@@ -1264,8 +1265,16 @@
     </div>
   </div>
 
-
-
+  <!-- Serpent Fragments tab -->
+<!--
+  <div class='window box' id='tab_serpentFragments' style='width: 1380px; height: 500px;'>
+    <div class='title-bar' style='background: linear-gradient(90deg, black, white);'>
+    <div class='title-bar-text'>Serpent Fragments</div>
+    </div>
+      <div class='window-body' style="background-color: #111;">
+        <p class='titleText' style='color: white; text-align: center;'>You have <span>0</span> seprent fragments</p>
+      </div>
+  </div> -->
 
 
   
@@ -1337,6 +1346,7 @@
   <script src="scripts/achievements.js"></script>
   <script src="scripts/hotkeys.js"></script>
   <script src="scripts/render.js"></script>
+  <script src='scripts/Serpent.js'></script>
   <script>load(); if (!isDevVersion) setAutoSave()</script>
 </body>
 
